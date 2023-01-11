@@ -1,4 +1,6 @@
 import './App.css'
+import { LocalizationProvider } from '@mui/lab';
+import AdapterDateFns from '@mui/lab/AdapterDateFns';
 //import { MuiCheckbox } from './components/MuiCheckbox';
 //import { MuiTypography } from './components/MuiTypography';
 //import { MuiButton } from './components/MuiButton';
@@ -30,44 +32,46 @@ import './App.css'
 //import { MuiDialog } from './components/MuiDialog';
 //import { MuiProgress } from './components/MuiProgress';
 //import { MuiSkeleton } from './components/MuiSkeleton';
-import { MuiLoadingButton } from './components/MuiLoadingButton';
+//import { MuiLoadingButton } from './components/MuiLoadingButton';
 
 function App() {
   return (
-    <div className='App'>
-      {/*<MuiTypography />*/}
-      {/*<MuiButton />*/}
-      {/*<MuiTextField />*/}
-      {/*<MuiSelect />*/}
-      {/*<MuiRadioButton />*/}
-      {/*<MuiCheckbox />*/}
-      {/*<MuiSwitch />*/}
-      {/*<MuiRating />*/}
-      {/*<MuiAutocomplete />*/}
-      {/*<MuiLayout />*/}
-      {/*<MuiCard />*/}
-      {/*<MuiAccordion />*/}
-      {/*<MuiImageList />*/}
-      {/*<MuiNavbar />*/}
-      {/*<MuiLink />*/}
-      {/*<MuiBreadcrumbs />*/}
-      {/*<MuiDrawer />*/}
-      {/*<MuiSpeedDial />*/}
-      {/*<MuiBottomNavigation />*/}
-      {/*<MuiAvatar />*/}
-      {/*<MuiBadge />*/}
-      {/*<MuiList />*/}
-      {/*<MuiChip />*/}
-      {/*<MuiTooltip />*/}
-      {/*<MuiTable />*/}
-      {/*<MuiAlert />*/}
-      {/*<MuiSnackbar />*/}
-      {/*<MuiDialog />*/}
-      {/*<MuiProgress />*/}
-      {/*<MuiSkeleton />*/}
-      <MuiLoadingButton />
+    <LocalizationProvider dateAdapter={AdapterDateFns}>
+        <div className='App'>
+            {/*<MuiTypography />*/}
+            {/*<MuiButton />*/}
+            {/*<MuiTextField />*/}
+            {/*<MuiSelect />*/}
+            {/*<MuiRadioButton />*/}
+            {/*<MuiCheckbox />*/}
+            {/*<MuiSwitch />*/}
+            {/*<MuiRating />*/}
+            {/*<MuiAutocomplete />*/}
+            {/*<MuiLayout />*/}
+            {/*<MuiCard />*/}
+            {/*<MuiAccordion />*/}
+            {/*<MuiImageList />*/}
+            {/*<MuiNavbar />*/}
+            {/*<MuiLink />*/}
+            {/*<MuiBreadcrumbs />*/}
+            {/*<MuiDrawer />*/}
+            {/*<MuiSpeedDial />*/}
+            {/*<MuiBottomNavigation />*/}
+            {/*<MuiAvatar />*/}
+            {/*<MuiBadge />*/}
+            {/*<MuiList />*/}
+            {/*<MuiChip />*/}
+            {/*<MuiTooltip />*/}
+            {/*<MuiTable />*/}
+            {/*<MuiAlert />*/}
+            {/*<MuiSnackbar />*/}
+            {/*<MuiDialog />*/}
+            {/*<MuiProgress />*/}
+            {/*<MuiSkeleton />*/}
+            {/*<MuiLoadingButton />*/}
 
-    </div>
+        </div>
+    </LocalizationProvider>
   );
 }
 
