@@ -2,6 +2,6 @@
 
 export const MuiLoadingButton = () => {
     return (
-        <div>MUI</div>
+        <div>MUI Loading Button</div>
     )
 }
