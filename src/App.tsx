@@ -1,6 +1,6 @@
 import './App.css'
-import { LocalizationProvider } from '@mui/lab';
-import AdapterDateFns from '@mui/lab/AdapterDateFns';
+//import { LocalizationProvider } from '@mui/lab';
+//import AdapterDateFns from '@mui/lab/AdapterDateFns';
 //import { MuiCheckbox } from './components/MuiCheckbox';
 //import { MuiTypography } from './components/MuiTypography';
 //import { MuiButton } from './components/MuiButton';
@@ -33,10 +33,16 @@ import AdapterDateFns from '@mui/lab/AdapterDateFns';
 //import { MuiProgress } from './components/MuiProgress';
 //import { MuiSkeleton } from './components/MuiSkeleton';
 //import { MuiLoadingButton } from './components/MuiLoadingButton';
+//import { MuiPicker } from './components/MuiPicker';
+//import { MuiDateRangePicker } from './components/MuiDateRangePicker';
+import { MuiTabs } from './components/MuiTabs';
+
+
+
 
 function App() {
   return (
-    <LocalizationProvider dateAdapter={AdapterDateFns}>
+    /*<LocalizationProvider dateAdapter={AdapterDateFns}>*/
         <div className='App'>
             {/*<MuiTypography />*/}
             {/*<MuiButton />*/}
@@ -69,9 +75,12 @@ function App() {
             {/*<MuiProgress />*/}
             {/*<MuiSkeleton />*/}
             {/*<MuiLoadingButton />*/}
+            {/*<MuiPicker />*/}
+            {/*<MuiDateRangePicker />*/}
+            <MuiTabs />
 
         </div>
-    </LocalizationProvider>
+    /*</LocalizationProvider>*/
   );
 }
 

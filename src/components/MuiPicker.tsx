@@ -2,15 +2,15 @@ import { Stack, TextField } from "@mui/material"
 import { DatePicker, TimePicker, DateTimePicker } from "@mui/lab"
 import { useState } from "react"
 
-export const MuiPicker = () => {
+/*export const MuiPicker = () => {
     const [selectedDate, setSelectedDate] = useState<Date | null>(null)
     const [selectedTime, setSelectedTime] = useState<Date | null>(null)
     const [selectedDateTime, setSelectedDateTime] = useState<Date | null>(null)
-    /*console.log({ selectedDate })*/
-    /*console.log({ selectedTime: selectedTime && selectedTime.toLocaleTimeString(), })*/
+    console.log({ selectedDate })
+    console.log({ selectedTime: selectedTime && selectedTime.toLocaleTimeString(), })
     console.log({ selectedDateTime })
     return (
-        <Stack spacing={4} sx={{ width: '250px' }}>
+        /*<Stack spacing={4} sx={{ width: '250px' }}>
             <DatePicker 
                 label='Date Picker' 
                 renderInput={(params) => <TextField {...params} />} 
@@ -37,4 +37,4 @@ export const MuiPicker = () => {
             />
         </Stack>
     )
-}
+}*/
