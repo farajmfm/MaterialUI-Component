@@ -35,7 +35,9 @@ import './App.css'
 //import { MuiLoadingButton } from './components/MuiLoadingButton';
 //import { MuiPicker } from './components/MuiPicker';
 //import { MuiDateRangePicker } from './components/MuiDateRangePicker';
-import { MuiTabs } from './components/MuiTabs';
+//import { MuiTabs } from './components/MuiTabs';
+//import { MuiTimeline } from './components/MuiTimeline';
+import { MuiMasonry } from './components/MuiMasonry';
 
 
 
@@ -77,7 +79,9 @@ function App() {
             {/*<MuiLoadingButton />*/}
             {/*<MuiPicker />*/}
             {/*<MuiDateRangePicker />*/}
-            <MuiTabs />
+            {/*<MuiTabs />*/}
+            {/*<MuiTimeline />*/}
+            <MuiMasonry />
 
         </div>
     /*</LocalizationProvider>*/
