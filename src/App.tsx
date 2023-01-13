@@ -1,4 +1,5 @@
 import './App.css'
+import { createTheme, colors, ThemeProvider } from '@mui/material'
 //import { LocalizationProvider } from '@mui/lab';
 //import AdapterDateFns from '@mui/lab/AdapterDateFns';
 //import { MuiCheckbox } from './components/MuiCheckbox';
@@ -40,12 +41,24 @@ import './App.css'
 //import { MuiMasonry } from './components/MuiMasonry';
 import { MuiResponsiveness } from './components/MuiResponsiveness';
 
-
-
-
+const theme = createTheme({
+  status: {
+     danger: '#2196f3'
+  },
+  palette: {
+    secondary: {
+      main: colors.blue[500],
+    },
+    neutral: {
+      main: colors.grey[500],
+      darker: colors.grey[700],
+    },
+  },
+})
 function App() {
   return (
-    /*<LocalizationProvider dateAdapter={AdapterDateFns}>*/
+    <ThemeProvider theme={theme}>
+      {/*<LocalizationProvider dateAdapter={AdapterDateFns}>*/}
         <div className='App'>
             {/*<MuiTypography />*/}
             {/*<MuiButton />*/}
@@ -86,7 +99,8 @@ function App() {
             <MuiResponsiveness />
 
         </div>
-    /*</LocalizationProvider>*/
+       {/*</LocalizationProvider>*/}
+    </ThemeProvider>
   );
 }
 
